@@ -7,3 +7,11 @@ export const parameters = {
     },
   },
 }
+
+import { muiTheme } from 'storybook-addon-material-ui'
+
+import { theme } from '../styles/theme'
+
+export const decorators = [
+	muiTheme(theme)
+];
