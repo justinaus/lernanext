@@ -1,8 +1,15 @@
+import { getIsValidEmail, getOnlyNumber } from '@justinaus/shared';
 import { Typography } from '@material-ui/core';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
 const Home: NextPage = () => {
+  console.log(
+    'test',
+    getOnlyNumber(`123jjj123`),
+    getIsValidEmail('123@naver.com'),
+  );
+
   return (
     <div>
       <Head>
