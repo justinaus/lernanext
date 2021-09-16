@@ -1,0 +1,26 @@
+{
+  "name": "pc",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "justinaus <justinaus2k@gmail.com>",
+  "homepage": "https://github.com/justinaus/lernanext#readme",
+  "license": "ISC",
+  "main": "lib/pc.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinaus/lernanext.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/justinaus/lernanext/issues"
+  }
+}
