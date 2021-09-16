@@ -11,7 +11,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Typography variant="h6">Home</Typography>
+        <Typography variant="h6" className="mb-4">
+          Home
+        </Typography>
+        <div>111</div>
       </main>
       <footer>Footer</footer>
     </div>

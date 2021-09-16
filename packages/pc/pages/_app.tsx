@@ -1,4 +1,5 @@
 import '../styles/globals.css';
+import 'tailwindcss/tailwind.css';
 
 import { CssBaseline, ThemeProvider } from '@material-ui/core';
 import type { AppProps } from 'next/app';
