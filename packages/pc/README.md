@@ -2,7 +2,7 @@
 
 http://lernanext.vercel.app/
 
-## Install and Start
+## Setup
 
 ```sh
 yarn install
