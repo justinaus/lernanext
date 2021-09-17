@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const http = axios.create({
+export const http = axios.create({
   baseURL: `https://jsonplaceholder.typicode.com`,
   // headers: {
   //   Version: '1.0',
@@ -8,5 +8,3 @@ const http = axios.create({
   //   platform: 'PC',
   // },
 });
-
-export default http;

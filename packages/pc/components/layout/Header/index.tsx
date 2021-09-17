@@ -6,23 +6,23 @@ export default function Header() {
     <header className="p-10">
       <ul>
         <li>
-          <Link href="/aaa">
-            <a>aaa</a>
+          <Link href="/staticGenerationWithoutData">
+            <a>Static Generation without Data</a>
           </Link>
         </li>
         <li>
-          <Link href="/bbb">
-            <a>bbb</a>
+          <Link href="/staticGenerationWithData">
+            <a>Static Generation with Data</a>
           </Link>
         </li>
         <li>
-          <Link href="/ccc">
-            <a>ccc</a>
+          <Link href="/ssr">
+            <a>SSR</a>
           </Link>
         </li>
         <li>
-          <Link href="/ddd">
-            <a>ddd</a>
+          <Link href="/csr">
+            <a>CSR</a>
           </Link>
         </li>
       </ul>
