@@ -27,5 +27,6 @@ module.exports = {
     'unused-imports/no-unused-imports': ['warn'],
     'simple-import-sort/imports': 'warn',
     'simple-import-sort/exports': 'warn',
+    'no-unused-vars': 'warn',
   },
 };
