@@ -1,6 +1,6 @@
 {
   "name": "@justinaus/shared",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "justinaus <justinaus2k@gmail.com>",
   "license": "ISC",
   "main": "build/index.js",
