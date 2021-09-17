@@ -2,7 +2,9 @@
 
 http://lernanext.vercel.app/
 
-## Install and Start (PC)
+## Setup 
+
+### PC
 
 ```sh
 cd packages/pc
@@ -11,6 +13,8 @@ yarn install
 
 yarn start
 ```
+
+## Directories
 
 ```
 ├── packages
@@ -43,3 +47,10 @@ yarn start
 - jest
 - storybook
 - etc..
+
+## Pages (next.js)
+
+- Static Generation without Data
+- Static Generation with Data
+- SSR
+- CSR
