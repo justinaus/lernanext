@@ -18,5 +18,9 @@
   },
   "dependencies": {
     "axios": "^0.21.4"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "dev:pc": "lerna run dev --scope=\"@justinaus/pc\""
   }
 }
