@@ -4,12 +4,14 @@ module.exports = {
     es2021: true,
     node: true,
     jest: true,
+    'cypress/globals': true,
   },
   extends: [
     'next',
     'prettier',
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:cypress/recommended',
     'plugin:@next/next/recommended',
   ],
   plugins: [
@@ -17,6 +19,7 @@ module.exports = {
     'react',
     'unused-imports',
     'simple-import-sort',
+    'cypress',
     '@typescript-eslint',
   ],
   rules: {
