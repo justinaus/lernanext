@@ -21,6 +21,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "start:pc": "lerna run start --scope=\"@justinaus/pc\""
+    "start:pc": "lerna run start --scope=\"@justinaus/pc\"",
+    "dev:pc": "lerna run dev --scope=\"@justinaus/pc\""
   }
 }
