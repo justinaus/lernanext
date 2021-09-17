@@ -1,4 +1,4 @@
-import { getIsValidEmail, getOnlyNumber } from '@justinaus/shared';
+import { getIsValidEmail, getOnlyNumber, useHello } from '@justinaus/shared';
 import { Typography } from '@material-ui/core';
 import type { NextPage } from 'next';
 import Head from 'next/head';
@@ -6,6 +6,8 @@ import Head from 'next/head';
 import Layout from '../components/layout/Layout';
 
 const Home: NextPage = () => {
+  useHello();
+
   console.log(
     'utils test',
     getOnlyNumber(`123jjj123`),

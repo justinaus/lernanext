@@ -1,4 +1,3 @@
-export * from './interfaces/photo.interface';
-export * from './interfaces/post.interface';
-export * from './utils/axios';
-export * from './utils/utils';
+export * from './hooks';
+export * from './interfaces';
+export * from './utils';
