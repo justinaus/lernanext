@@ -13,6 +13,7 @@
   "dependencies": {
     "@justinaus/shared": "^1.0.1",
     "@material-ui/core": "^4.12.3",
+    "classnames": "^2.3.1",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
